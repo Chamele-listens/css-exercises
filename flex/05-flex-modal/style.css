@@ -15,11 +15,37 @@ body {
   justify-content: center;
 }
 
+.head-right{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+
+.header{
+  margin-right: auto;
+  font-weight: bolder;
+  font-size: large;
+  margin-left: 18px;
+  
+}
+
+.modal-content{
+  margin-left: 60px;
+  margin-top: -10px;
+}
+
+
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 15px;
+}
+
+.button-confirm{
+  margin-top: 15px;
 }
 
 .icon {
