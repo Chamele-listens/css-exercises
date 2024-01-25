@@ -37,7 +37,12 @@ body {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
-  margin-bottom: auto;
+  gap: 32px;
+}
+
+.content-container{
+  display: flex;
+  flex: 1;
 }
 
 .card-list{
@@ -61,4 +66,9 @@ ul , a {
   list-style-type: none;
   color: white;
   font-size: 24px;
+}
+
+
+li {
+  margin-bottom: 16px;
 }
